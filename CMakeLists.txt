@@ -204,7 +204,7 @@ pkg_check_modules (GOBJECT REQUIRED gobject-2.0)
 pkg_check_modules (GMODULE REQUIRED gmodule-2.0)
 pkg_check_modules (GTHREAD REQUIRED gthread-2.0)
 
-pkg_check_modules (LIBXML2 REQUIRED libxml-2.0>=2.9.4)
+pkg_check_modules (LIBXML2 REQUIRED libxml-2.0>=2.9.1)
 pkg_check_modules (LIBXSLT REQUIRED libxslt)
 if (WITH_GNUCASH)
   if (WIN32)
